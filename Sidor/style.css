@@ -1,0 +1,212 @@
+html {
+    font-family: sans-serif;
+    background-color:#41362e;
+    color:antiquewhite;
+}
+
+.menu > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #75B2BA;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    flex-grow: 2;
+    text-align: center;
+}
+.menu > ul > li:hover{
+    background-color:#5e8d93 ;
+    font-size: 110%;
+}
+
+.menu > ul > li > a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+    
+}
+
+.menu > ul {
+    background-color: #26656E;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #BA9375;
+
+}
+
+.header {
+    /* background-repeat: repeat; */
+   
+    margin-right: 10%;
+    margin-left: 10%;
+    text-shadow: 1px 1px #000;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+
+.header > h1 {
+    height: 5em;
+    text-align: center;
+    font-size: 5rem;
+    background-image: url(/Hästar/ovrigt/ridlektion_ute.jpg);
+    background-size: cover;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #BA9375;
+}
+
+.content{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+color: #000;
+margin-left: 10%;
+margin-right: 10%;
+justify-content: center;
+}
+
+.newsFeed{
+    background-color: aliceblue;
+    margin: 10px;
+    width: 50%;
+    flex-grow: 2;
+    max-width: 1000px;
+    /* display:flex;
+    flex-direction: column; */
+
+}
+
+h1{
+    background-color: #26656E;
+    padding: 15px;
+}
+
+.newsItem{
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 20px;
+    border-bottom: #75B2BA solid;
+}
+
+.newsItem > p{
+    margin-left: 20px;
+}
+
+#anläggning{
+    flex-grow: 2;
+}
+
+.box{
+    background-color:aliceblue;
+    width: 25%;
+    margin: 10px;   
+    min-width: 150px;
+    max-width: 1000px;
+    flex-grow: 2;
+}
+
+.boxContent{
+    padding: 10px;
+    /* flex-direction: column; */
+}
+
+.boxMainImage{
+    width: 50%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.buttonStyle{
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #26656E;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #BA9375;
+    flex-shrink: 0;
+    max-height: 50px;
+}
+
+.buttonStyle > a{
+    background-color: #75B2BA;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    color: aliceblue;
+    text-shadow: 1px 1px #000;
+}
+
+.buttonStyle > a:hover{
+    background-color:#5e8d93 ;
+    font-size: 110%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.imgContainer > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.hastarImg{
+    text-align: center;
+    background-color: bisque; 
+    margin: 5px;
+}
+
+.hastarImg > img{
+    max-width: 100px;
+    max-height: auto;
+    margin: 5px;
+}
+
+#varaHastar{
+    width: 100%;
+}
+
+td{
+    height: 50px;
+    width: 50px;
+    max-width: 50px;
+    border-color: #000;
+    border-style: solid;
+    text-align:left;
+}
+
+
+@media screen and (max-width: 1000px){
+    h1{
+        font-size: 2rem;
+    }
+
+    .menu > ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsFeed{
+        width: 100%;
+    }
+    
+}
