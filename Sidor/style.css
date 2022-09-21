@@ -59,7 +59,7 @@ a{
     height: 5em;
     text-align: center;
     font-size: 5rem;
-    background-image: url(/ridskolan/Hästar/ovrigt/ridlektion_ute.jpg);
+    background-image: url(/Hästar/ovrigt/ridlektion_ute.jpg);
     background-size: cover;
     margin-bottom: 0px;
     border-style: solid;
@@ -192,6 +192,13 @@ td{
     border-color: #000;
     border-style: solid;
     text-align:left;
+}
+
+#kontakta {
+    height: 100px;
+    width: 300px;
+    overflow-y: scroll;
+    resize: none;
 }
 
 
